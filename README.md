@@ -1,218 +1,230 @@
-\# 📚 StudyBuddy
+# 📚 StudyBuddy – AI-Powered Learning Assistant
 
-StudyBuddy is an AI-powered document learning platform that helps students upload study materials, generate summaries, ask questions, create flashcards, and chat with their documents using Google Gemini.
+<p align="center">
+  <img src="./frontend/src/assets/logos/studybudyy-logo.png" alt="StudyBuddy Logo" width="120">
+</p>
 
+<p align="center">
+  <strong>Upload. Learn. Chat. Revise.</strong><br>
+  An AI-powered document learning platform that transforms study materials into summaries, flashcards, questions, and interactive conversations.
+</p>
 
-\## ✨ Features
+---
 
+## 🚀 Overview
 
-\- 🔐 User Authentication
+StudyBuddy is a full-stack AI-powered learning platform designed to help students understand and revise study materials efficiently.
 
-\- 📄 Upload PDF and DOCX files
+Simply upload your study documents, and StudyBuddy leverages Google's Gemini AI to generate:
 
-\- 🤖 AI-powered document chat
+- 📝 Smart Summaries
+- 💬 AI Chat with Documents
+- ❓ Question & Answer Generation
+- 🧠 Flashcards for Revision
 
-\- 📝 Smart summaries
+The platform enables students to learn faster, revise smarter, and interact naturally with their study materials.
 
-\- ❓ Automatic Question \& Answer generation
+---
 
-\- 🧠 Flashcard generation
+# ✨ Features
 
-\- 📊 Personal dashboard
+- 🔐 Secure User Authentication
+- 📄 Upload PDF Documents
+- 🤖 AI-Powered Document Analysis
+- 📝 Automatic Summary Generation
+- 💬 Chat with Uploaded Documents
+- ❓ AI Question & Answer Generation
+- 🧠 Flashcard Generation
+- 📊 Personal Dashboard
+- 📚 Manage Uploaded Documents
+- ⚡ Fast and Responsive UI
 
-\- 📱 Responsive UI
+---
 
+# 🛠 Tech Stack
 
+## Frontend
 
-\## 🛠️ Tech Stack
+- React.js
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
 
-\### Frontend
+## Backend
 
-\- React 19
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- Multer
 
-\- Vite
+## AI
 
-\- Tailwind CSS
+- Google Gemini API
 
-\- React Router
+---
 
-\- React Query
-
-\- Axios
-
-\- Framer Motion
-
-
-
-\### Backend
-
-\- Node.js
-
-\- Express.js
-
-\- MongoDB
-
-\- Mongoose
-
-\- JWT Authentication
-
-\- Multer
-
-\- Google Gemini API
-
-
-
-\## 📁 Project Structure
-
-```text
-
-StudyBuddy/
-
-├── frontend/
-
-├── backend/
-
-└── screenshots/
+# 📂 Project Structure
 
 ```
-
-
-
-\## 🚀 Getting Started
-
-\### Clone Repository
-
-```bash
-
-git clone https://github.com/aditya25666/StudyBuddy.git
-
-cd StudyBuddy
-
+StudyBuddy
+│
+├── frontend
+│   ├── src
+│   ├── assets
+│   ├── pages
+│   └── components
+│
+├── backend
+│   ├── controllers
+│   ├── routes
+│   ├── models
+│   ├── middleware
+│   ├── config
+│   └── services
+│
+└── screenshots
 ```
 
+---
 
+# ⚙️ Installation
 
-\### Backend
+## Clone Repository
 
 ```bash
+git clone https://github.com/aditya25666/studybuddy.git
 
+cd studybuddy
+```
+
+---
+
+## Backend
+
+```bash
 cd backend
 
 npm install
 
 npm run dev
-
 ```
 
+---
 
-
-\### Frontend
+## Frontend
 
 ```bash
-
 cd frontend
 
 npm install
 
 npm run dev
-
 ```
 
+---
 
+# 🔑 Environment Variables
 
-Create a `.env` file inside the backend directory and configure your MongoDB URI, JWT secret, and Gemini API key.
+Backend `.env`
 
+```env
+PORT=5000
 
+MONGO_URI=your_mongodb_uri
 
-\## 📸 Screenshots
+JWT_SECRET=your_secret
 
+GEMINI_API_KEY=your_gemini_api_key
 
+CLIENT_URL=http://localhost:5173
+```
 
-\### 1. Register
+---
 
-!\[Register](screenshots/sb%20register.png)
+# 📸 Screenshots
 
+## 1. Register
 
+![Register](./screenshots/sb%20register.png)
 
-\### 2. Login
+---
 
-!\[Login](screenshots/sb%20login.png)
+## 2. Login
 
+![Login](./screenshots/sb%20login.png)
 
+---
 
-\### 3. Home
+## 3. Home
 
-!\[Home](screenshots/sb%20home.png)
+![Home](./screenshots/sb%20home.png)
 
+---
 
+## 4. Dashboard
 
-\### 4. Dashboard
+![Dashboard](./screenshots/sb%20dashboard.png)
 
-!\[Dashboard](screenshots/sb%20dashboard.png)
+---
 
+## 5. Overview
 
+![Overview](./screenshots/sb%20overview.png)
 
-\### 5. Overview
+---
 
-!\[Overview](screenshots/sb%20overview.png)
+## 6. Summary
 
+![Summary](./screenshots/sb%20summary.png)
 
+---
 
-\### 6. Summary Generator
+## 7. AI Chat
 
-!\[Summary](screenshots/sb%20summary.png)
+![AI Chat](./screenshots/sb%20chat.png)
 
+---
 
+## 8. Question & Answer
 
-\### 7. AI Chat
+![Question Answer](./screenshots/sb%20qa.png)
 
-!\[Chat](screenshots/sb%20chat.png)
+---
 
+## 9. Flashcards
 
+![Flashcards](./screenshots/sb%20flashcards.png)
 
-\### 8. Question \& Answer Generator
+---
 
-!\[Q\&A](screenshots/sb%20qa.png)
+# 🔮 Future Improvements
 
+- 📚 Multi-document Chat
+- 🧠 RAG-based Retrieval
+- 🔍 Semantic Search
+- 🌐 OCR Support
+- 🎙 Voice-based AI Chat
+- 📱 Mobile Responsive Improvements
+- 📊 Learning Analytics
+- 👥 Collaborative Study Groups
 
+---
 
-\### 9. Flashcards
+# 📄 License
 
-!\[Flashcards](screenshots/sb%20flashcards.png)
+This project is licensed under the MIT License.
 
+---
 
+## 👨‍💻 Author
 
-\## 🔮 Future Improvements
+**Aditya Ingle**
 
+Final Year Computer Engineering Student
 
+---
 
-\- RAG-based semantic search
-
-\- Vector database integration
-
-\- OCR support
-
-\- Multi-document chat
-
-\- Speech-to-text
-
-\- Export notes
-
-
-
-\## Author
- 
- Aditya Ingle
-
- https://github.com/aditya25666
-
-
-
-\## 📄 License
-
-This project is intended for educational and portfolio purposes.
-
-
-
-
-
+⭐ If you like this project, consider giving it a **Star** on GitHub!
